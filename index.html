@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cloudflare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_2.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  
+</head>
+
+<body>
+    <nav class="top-nav">
+        <div class="logo"><img src="img/cloudflare-logo-color-horizontal.png" alt="logo"></div>
+
+        <div class="top-nav-bg"></div>
+        <div class="menu-button">
+            <div class="menu-icon"></div>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="left-column">
+            <h2>Recent DDoS and ransom attack trends: What you need to know to protect your network</h2>
+        </div>
+
+        <div class="left-column">
+            <h3></h3>
+            <p>Cloudflare’s network protects approximately 25 million Internet properties, giving us deep insight into DDoS attack trends around the world. We also saw an increase in emergency onboardings of companies under an active DDoS attack (an increase
+                by 41.8% in 2021 H1 compared to 2020 H2). Recently massive ransomware and ransom DDoS attacks interrupted aspects of critical infrastructure around the world, including one of the largest petroleum pipeline system operators and one of
+                the world’s biggest meat processing companies. In July hundreds of US companies were also hit by a ransomware attack demanding 70 million USD in Bitcoin. </p>
+            <p>In Q2 2021, Cloudflare observed DDoS attack trends over our network that paint a picture that reflects the overall global cyber threat landscape. Read this report to learn:</p>
+            <ul>
+                <li>Which attack vectors are becoming more and less common</li>
+                <li>Which industries and countries have experienced the most and least DDoS attacks</li>
+                <li>How large, high bitrate attacks are trending quarter-over-quarter</li>
+                <li>Patterns in ransom DDoS activity, and how to respond if you receive a ransom demand</li>
+            </ul>
+
+            <br>
+            <Br>
+            <div class="image-group">
+                <div class="image-large"><img src="./img/21_thumbnail.png" alt="im2" style="width:35%;"></div>
+            </div>
+
+        </div>
+        <div class="right-column">
+            <h3><b>Download Now</b> </h3>
+            <form name="myForm" id="myForm" class="myForm-container"  accept-charset='UTF-8'>
+                <div class="group">
+                    <input name="FirstName" type="text" required>
+                    <label class="input-label" for="first_name">First Name *</label>
+                </div>
+                <div class="group">
+                    <input name="LastName" type="text" required>
+                    <label class="input-label" for="Last_name">Last Name *</label>
+                </div>
+                <div class="group">
+                    <input name="BusinessEmail" type="email" required>
+                    <label class="input-label" for="Work_email">Business Email *</label>
+                </div>
+                <div class="group">
+					
+                    <input name="Work_phone" type="text" class="form-control input-sm lfreq tblfreq tel" id="phoneInput"  required>
+                    <label class="input-label1" for="Work_Phone">
+						<img src="./img/india.png" alt="" width="20" class="indiaflag"> Phone Number *</label>
+                </div>
+				
+                <!-- <div class="group">
+					<label lass="input-label" for="Work_phone">Phone Number *</label>
+                    <input type="tel" class="form-control input-sm lfreq tblfreq tel" id="phone" name="Work_phone" onkeypress="return isNumberKey(event)" oninvalid="setCustomValidity('Invalid Number');" onchange="setCustomValidity('');" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                        minlength="8" maxlength="10"  required="">
+                
+                    <script>
+                        function isNumberKey(evt) {
+                            var charCode = (evt.which) ? evt.which : event.keyCode
+                            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                                return false;
+
+                            return true;
+                        }
+                        var input = document.querySelector("#phone");
+                        window.intlTelInput(input, {
+                            initialCountry: "auto",
+                            geoIpLookup: function(callback) {
+                                $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+                                    var countryCode = (resp && resp.country) ? resp.country : "au";
+                                    callback(countryCode);
+                                });
+                            },
+                            utilsScript: "../../build/js/utils.js?1613236686837" // just for formatting/placeholders etc
+                        });
+                    </script>
+                </div> -->
+                <div class="group">
+                    <input name="Job_title" type="text" required>
+                    <label class="input-label" for="Job_title">Job Title *</label>
+                </div>
+                <div class="group">
+                    <input name="Company_name" type="text" required>
+                    <label class="input-label" for="Company_name">Company Name *</label>
+                </div>
+                <div class="group">
+                    <select required class="group1">
+				<option style="display: none; padding-left: 40px;" value="" >Country *</option>
+				<option>Afghanistan</option>
+				<option>Albania</option>
+				<option>Algeria</option>
+				<option>American Samoa</option>
+				<option>Australia</option>
+				<option>Austria</option>
+				<option>Azerbaijan</option>
+				<option>Bahrain</option>
+				<option>Bangladesh</option>
+				<option>Belarus</option>
+				<option>Belgium</option>
+				<option>Belize</option>
+				<option>Benin</option>
+				<option>Bhutan</option>
+				<option>Bonaire</option>
+				<option>Bosnia</option>
+				<option>Botswana</option>
+				<option>Cambodia</option>
+				<option>Cameroon</option>
+				<option>Canada</option>
+				<option>Cape Verde</option>
+				<option>Cayman Islands</option>
+				<option>Central African Republic</option>
+				<option>Chad</option>
+				<option>Chile</option>
+				<option>China</option>
+				<option>Christmas Island</option>
+				<option>Cocos Islands</option>
+				<option>Cyprus</option>
+				<option>Czech Republic</option>
+				<option>Denmark</option>
+				<option>Djibouti</option>
+				<option>Dominica</option>
+				<option>Dominican Republic</option>
+				<option>Ecuador</option>
+				<option>Egypt</option>
+				<option>El Salvador</option>
+				<option>Equatorial Guinea</option>
+				<option>Eritrea</option>
+				<option>Estonia</option>
+				<option>Ethiopia</option>
+				<option>Falkland Islands (Malvinas)</option>
+				<option>Faroe Islands</option>
+				<option>Fiji</option>
+				<option>Finland</option>
+				<option>France</option>
+				<option>French Guiana</option>
+				<option>French Polynesia</option>
+				<option>French Southern Territories</option>
+				<option>Gabon</option>
+				<option>Gambia</option>
+				<option>Georgia</option>
+				<option>Germany</option>
+				<option>Ghana</option>
+				<option>Gibraltar</option>
+				<option>Greece</option>
+				<option>Greenland</option>
+				<option>Grenada</option>
+				<option>Guadeloupe</option>
+				<option>Guam</option>
+				<option>Guatemala</option>
+				<option>Guernsey</option>
+				<option>Guinea</option>
+				<option>Guinea-Bissau</option>
+				<option>Guyana</option>
+				<option>Haiti</option>
+				<option>Heard Island</option>
+				<option>Honduras</option>
+				<option>Hong Kong</option>
+				<option>Hungary</option>
+				<option>Iceland</option>
+				<option>India</option>
+				<option>Indonesia</option>
+				<option>Iran</option>
+				<option>Iraq</option>
+				<option>Ireland</option>
+				<option>Isle of Man</option>
+				<option>Israel</option>
+				<option>Italy</option>
+				<option>Ivory Coast</option>
+				<option>Jamaica</option>
+				<option>Japan</option>
+				<option>Jersey</option>
+				<option>Jordan</option>
+				<option>Kazakhstan</option>
+				<option>Kenya</option>
+				<option>Kiribati</option>
+				<option>Korea</option>
+				<option>Korea, DPRK</option>
+				<option>Kosovo</option>
+				<option>Kuwait</option>
+				<option>Kyrgyzstan</option>
+				<option>Laos</option>
+				<option>Latvia</option>
+				<option>Lebanon</option>
+				<option>Lesotho</option>
+				<option>Liberia</option>
+				<option>Libya</option>
+				<option>Liechtenstein</option>
+				<option>Lithuania</option>
+				<option>Luxembourg</option>
+				<option>Macao</option>
+				<option>Macedonia</option>
+				<option>Madagascar</option>
+				<option>Malawi</option>
+				<option>Malaysia</option>
+				<option>Maldives</option>
+				<option>Mali</option>
+				<option>Malta</option>
+				<option>Marshall Islands</option>
+				<option>Martinique</option>
+				<option>Mauritania</option>
+				<option>Mauritius</option>
+				<option>Mayotte</option>
+				<option>Mexico</option>
+				<option>Micronesia, Fed.</option>
+				<option>Moldova</option>
+				<option>Monaco</option>
+				<option>Mongolia</option>
+				<option>Montenegro</option>
+				<option>Montserrat</option>
+				<option>Morocco</option>
+				<option>Mozambique</option>
+				<option>Myanmar</option>
+				<option>Namibia</option>
+				<option>Nauru</option>
+				<option>Nepal</option>
+				<option>Netherlands</option>
+				<option>New Caledonia</option>
+				<option>New Zealand</option>
+				<option>Nicaragua</option>
+				<option>Niger</option>
+				<option>Nigeria</option>
+				<option>Niue</option>
+				<option>Norfolk Island</option>
+				<option>Northern Marianas</option>
+				<option>Norway</option>
+				<option>Oman</option>
+				<option>Pakistan</option>
+				<option>Palau</option>
+				<option>Palestinian Terr.</option>
+				<option>Panama</option>
+				<option>Papua New Guinea</option>
+				<option>Paraguay</option>
+				<option>Peru</option>
+				<option>Philippines</option>
+				<option>Pitcairn</option>
+				<option>Poland</option>
+				<option>Portugal</option>
+				<option>Puerto Rico</option>
+				<option>Qatar</option>
+				<option>Romania</option>
+				<option>Russia</option>
+				<option>Rwanda</option>
+				<option>Réunion</option>
+				<option>Saint Barthélemy</option>
+				<option>Saint Helena</option>
+				<option>Saint Kitts and Nevis</option>
+				<option>Saint Lucia</option>
+				<option>Saint Martin (French)</option>
+				<option>Saint Pierre and Miquelon</option>
+				<option>Saint Vincent</option>
+				<option>Samoa</option>
+				<option>San Marino</option>
+				<option>Sao Tome & Principe</option>
+				<option>Saudi Arabia</option>
+				<option>Senegal</option>
+				<option>Serbia</option>
+				<option>Seychelles</option>
+				<option>Sierra Leone</option>
+				<option>Singapore</option>
+				<option>Sint Maarten (Dutch)</option>
+				<option>Slovakia</option>
+				<option>Slovenia</option>
+				<option>Solomon Islands</option>
+				<option>Somalia</option>
+				<option>South Africa</option>
+				<option>South Georgia and the South Sandwich Islands</option>
+				<option>South Sudan</option>
+				<option>Spain</option>
+				<option>Sri Lanka</option>
+				<option>Sudan</option>
+				<option>Suriname</option>
+				<option>Svalbard</option>
+				<option>Swaziland</option>
+				<option>Sweden</option>
+				<option>Switzerland</option>
+				<option>Syria</option>
+				<option>Taiwan</option>
+				<option>Tajikistan</option>
+				<option>Tanzania</option>
+				<option>Thailand</option>
+				<option>Timor-Leste</option>
+				<option>Togo</option>
+				<option>Tokelau</option>
+				<option>Tonga</option>
+				<option>Trinidad and Tobago</option>
+				<option>Tunisia</option>
+				<option>Turkey</option>
+				<option>Turkmenistan</option>
+				<option>Turks and Caicos</option>
+				<option>Tuvalu</option>
+				<option>U.A.E.</option>
+				<option>Uganda</option>
+				<option>Ukraine</option>
+				<option>United Kingdom</option>
+				<option>United States</option>
+				<option>United States Minor Outlying Islands</option>
+				<option>Uruguay</option>
+				<option>Uzbekistan</option>
+				<option>Vanuatu</option>
+				<option>Vatican City</option>
+				<option>Venezuela</option>
+				<option>Viet Nam</option>
+				<option>Virgin Islands, British</option>
+				<option>Virgin Islands, U.S.</option>
+				<option>Wallis and Futuna</option>
+				<option>Western Sahara</option>
+				<option>Yemen</option>
+				<option>Zambia</option>
+				<option>Zimbabwe</option>
+					</select>
+                </div>
+                <div class="group">
+                    <label name="CQ1" type="text" required>I will start re-evaluating DDoS solutions for my corporate network in: *</label>
+                    <select required>
+					<option  style="display: none" value="">--Select--</option>
+						<option value="No project planned at this time ">No project planned at this time</option>
+						<option value="1-3 months ">1-3 months </option>
+						<option value="4-6 months">4-6 months</option>
+						<option value="7- 12 months">7- 12 months</option>
+						<option value="13-18 months">13-18 months</option>
+						</select>
+                </div>
+                <div class="group">
+                    <label name="CQ1" type="text" required>My current provider for layer 3/4 DDoS protection is: *</label>
+                    <select name="o_name" >
+					<option  style="display: none" value="">--Select--</option>
+						<option value="Akamai Prolexic">Akamai Prolexic</option>
+						<option value="F5">F5</option>
+						<option value="Imperva">Imperva</option>
+						<option value="Netscout Arbor">Netscout Arbor</option>
+						<option value="Neustar">Neustar</option>
+						<option value="Radware">Radware</option>
+						<option value="Other">Other</option>
+						</select>
+                    <input type="text" name="o_name" id="o_name" placeholder="enter name" style='display:none;' />
+                </div>
+                <div class="group">
+                    <input id="check" type="checkbox" class="custom-checkbox">
+                    <label for="check"><p><br>Our content sponsor, Cloudflare, would like to contact you in the 
+						future by email or phone to provide you information and news about Cloudflare products, 
+						services and events. Check this box if you are happy to receive these communications. 
+						You can change your mind at any time to stop receiving such emails and/or calls. See the
+						 <a style="color:#337ab7;" href="#" 
+						 ><u>Cloudflare Privacy Statement</u></a> for more information.</p></label>
+                </div>
+                <input type="submit" class="custom-submit" value="Download Now">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="line"></div>
+        <div class="left-column">
+            <div class="logo"><img src="img/cloudflare-logo-color-horizontal.png" alt="logo"></div>
+            <!-- <a href="https://www.Cloudflare.com/privacy-policy/" target="_blank">Privacy Policy</a> -->
+            </p>
+        </div>
+
+
+    </footer>
+    <!-- validation for phone Number -->
+	<script>
+		// Function to validate phone number
+		function validatePhoneNumber(phoneNumber) {
+		  // Check if the phone number starts with a digit between 6 and 9 and has a total of 10 digits
+		  return /^[6-9]\d{9}$/.test(phoneNumber);
+		}
+	
+		// Add an event listener to the form to handle form submission
+		const myForm = document.getElementById("myForm");
+	
+		myForm.addEventListener("submit", function(event) {
+		  event.preventDefault(); // Prevent the default form submission behavior
+	
+		  const phoneNumberInput = document.getElementById("phoneInput");
+		  const phoneNumber = phoneNumberInput.value;
+		  
+		  if (validatePhoneNumber(phoneNumber)) {
+			// Valid phone number, you can submit the form or perform any other action
+			alert("Form Submitted Successfully");
+			myForm.submit(); // Uncomment this line to submit the form
+		  } else {
+			// Invalid phone number, show an alert
+			alert("Invalid phone number. Please enter a 10-digit number starting with 6-9.");
+		  }
+		});
+	  </script>
+
+</body>
+
+</html>
